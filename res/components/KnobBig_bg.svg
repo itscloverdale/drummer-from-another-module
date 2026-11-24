@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="16.0mm" height="16.0mm" viewBox="0 0 16.0 16.0">
+<defs><linearGradient id="kb" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="16"><stop offset="0" stop-color="#2e2e31"/><stop offset="1" stop-color="#040404"/></linearGradient></defs><circle cx="8.0" cy="8.0" r="7.95" fill="url(#kb)"/>
+</svg>

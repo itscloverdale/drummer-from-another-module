@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="8.0mm" height="8.0mm" viewBox="0 0 8.0 8.0">
+<defs><linearGradient id="bblack0" gradientUnits="userSpaceOnUse" x1="0" y1="0.4" x2="0" y2="7.6"><stop offset="0" stop-color="#333336"/><stop offset="1" stop-color="#0d0d0e"/></linearGradient></defs><rect x="0.4" y="0.4" width="7.2" height="7.2" rx="1.9" fill="url(#bblack0)" stroke="#4a4a4e" stroke-width="0.25"/>
+</svg>

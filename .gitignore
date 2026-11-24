@@ -1,0 +1,9 @@
+/build
+/dep
+/dist
+/.venv
+/tests/out
+plugin.dylib
+plugin.so
+plugin.dll
+.DS_Store

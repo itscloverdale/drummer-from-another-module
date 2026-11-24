@@ -1,0 +1,28 @@
+{
+  "slug": "DrummerFromAnotherModule",
+  "name": "Drummer from Another Module",
+  "version": "2.0.0",
+  "minRackVersion": "2.6.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Cloverdale Engineering",
+  "author": "Cloverdale Engineering",
+  "authorUrl": "https://cloverdale.engineering",
+  "pluginUrl": "https://github.com/itscloverdale/drummer-from-another-module",
+  "manualUrl": "https://github.com/itscloverdale/drummer-from-another-module#readme",
+  "sourceUrl": "https://github.com/itscloverdale/drummer-from-another-module",
+  "changelogUrl": "https://github.com/itscloverdale/drummer-from-another-module/blob/main/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "DrummerFromAnotherModule",
+      "name": "Drummer from Another Module",
+      "description": "Semi-modular analog-style percussion synth with an 8-step pitch and velocity sequencer, modelled on a classic desktop drum voice",
+      "tags": [
+        "Drum",
+        "Synth voice",
+        "Sequencer",
+        "Oscillator",
+        "Filter"
+      ]
+    }
+  ]
+}
