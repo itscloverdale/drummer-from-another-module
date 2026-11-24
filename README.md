@@ -2,6 +2,10 @@
 
 A semi-modular percussion synthesizer for VCV Rack 2 by Cloverdale Engineering. Two oscillators with FM and sync, a noise and external-audio mixer, a high-pass or low-pass filter, three decay envelopes and a VCA are driven by an 8-step pitch and velocity sequencer. A patch bay exposes the envelopes, oscillators, trigger, velocity and pitch, and accepts CV for most of the voice.
 
+## Download
+
+Get the latest `.vcvplugin` for your computer from the repository's **Releases** page: `win-x64` for Windows, `mac-arm64` for Apple Silicon Macs, `mac-x64` for Intel Macs, `lin-x64` for Linux. In Rack, choose **Help > Open user folder**, put the file in the `plugins-<platform>` folder and restart Rack.
+
 ## Build
 
 Requires the Rack 2 SDK, a C++17 compiler, Make, jq and zstd.
