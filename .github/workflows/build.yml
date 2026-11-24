@@ -20,8 +20,8 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - { platform: mac-arm64, os: macos-14, sdk: mac-arm64, cross: '' }
-          - { platform: mac-x64, os: macos-14, sdk: mac-x64, cross: x86_64-apple-darwin }
+          - { platform: mac-arm64, os: macos-latest, sdk: mac-arm64, cross: '' }
+          - { platform: mac-x64, os: macos-latest, sdk: mac-x64, cross: x86_64-apple-darwin }
           - { platform: lin-x64, os: ubuntu-22.04, sdk: lin-x64, cross: '' }
           - { platform: win-x64, os: windows-2022, sdk: win-x64, cross: '' }
     defaults:
@@ -34,7 +34,7 @@ jobs:
         with:
           msystem: MINGW64
           update: true
-          install: make tar unzip zip mingw-w64-x86_64-gcc mingw-w64-x86_64-jq mingw-w64-x86_64-zstd
+          install: make tar unzip zip jq zstd mingw-w64-x86_64-gcc
       - if: runner.os == 'Linux'
         run: sudo apt-get update && sudo apt-get install -y jq zstd
       - if: runner.os == 'macOS'
